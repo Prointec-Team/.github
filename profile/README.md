@@ -7,8 +7,8 @@ Este documento establece las **normativas oficiales y de cumplimiento obligatori
 ## 📂 Estructura de Repositorios
 
 Los repositorios deben organizarse según cliente o propósito específico, usando la siguiente convención:  
-odoo-ptc-<nombre_cliente_o_proyecto> (Para repositorios de OdooSH)
-ptc-<nombre_cliente_o_proyecto> (Para repositorios de otros desarrollos)
+- odoo-ptc-<nombre_cliente_o_proyecto> (Para repositorios de OdooSH)
+- ptc-<nombre_cliente_o_proyecto> (Para repositorios de otros desarrollos)
 
 ### Ejemplos:
 - `odoo-ptc-rroma`
