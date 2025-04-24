@@ -68,7 +68,7 @@ Aplicables a `production` y `staging`:
 ## 📝 4. Estándares de Nombres
 
 ### 📛 Nombres de Ramas
-<tipo>/<num-tarea> 
+`<tipo>/<num-tarea>`
 
 Ejemplos:
 - `feature/RRM-TSK001`
