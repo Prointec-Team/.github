@@ -40,7 +40,7 @@ Los permisos se asignan por repositorio, permitiendo que cada equipo colabore si
 
 ### 📌 Ramas Estándar
 - `production`: rama de código estable desplegado
-- `staging-<fecha-de-creación>`: entorno previo a producción para pruebas QA
+- `staging-<DDMMYY>`: entorno previo a producción para pruebas QA
 - `<tipo>/<num-tarea>`: ramas para nuevas funcionalidades o correcciones
 
 ### 🔒 Reglas de Protección (Branch Protection)
