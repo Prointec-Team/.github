@@ -71,9 +71,9 @@ Aplicables a `production` y `staging`:
 `<tipo>/<num-tarea>`
 
 Ejemplos:
-- `feature/RRM-TSK001`
-- `bugfix/WPS-TSK101`
-- `hotfix/PTC-TSK450`
+- `feature/RRM-ADV-TSK001`
+- `bugfix/WPS-ADV-TSK101`
+- `hotfix/PTC-IMP-TSK450`
 
 Tipos aceptados:
 
@@ -89,15 +89,17 @@ Tipos aceptados:
 
 ---
 
-## ✅ Reglas de Pull Request y Revisión
+## ✅ Reglas de Commits, Pull Request y Revisión
 
 1. Todo cambio debe hacerse por PR (Pull Request)
-2. Debe incluir:
-   - Nombre de la rama
-   - Nombre de tareas o ticket
-3. Al menos una revisión de otro miembro (`QA` o `Admin`) es obligatoria.
-4. No se permite hacer merge propio sin revisión (salvo hotfix urgente aprobado en chat interno)
-5. Commits deben seguir los estándares definidos
+2. La descripcion del commit debe ser el nombre de la tarea o ticket.
+3. El nombre del PR debe ser el nombre de la rama:
+   - Ejemplo: feature/RRM-ADV-TSK001.
+4. En la descripción del PR debe agregarse el nombre de la tarea o el ticket:
+   - Ejemplo: Cambio encabezado de reporte.
+5. **Al menos una revisión de otro miembro (`QA` o `Admin`) es obligatoria.**
+6. No se permite hacer merge propio sin revisión (salvo hotfix urgente aprobado en chat interno)
+7. Commits deben seguir los estándares definidos.
 
 ---
 
