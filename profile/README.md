@@ -77,14 +77,14 @@ Ejemplos:
 
 Tipos aceptados:
 
-| Tipo       | Uso común                                              |
-|------------|--------------------------------------------------------|
-| `feature/` | Nuevas funcionalidades                                 |
-| `bugfix/`  | Corrección de errores                                  |
-| `hotfix/`  | Corrección urgente en `production`                     |
-| `chore/`   | Tareas de mantenimiento (linters, CI, docs)            |
-| `refactor/`| Reorganización o limpieza sin cambiar lógica funcional |
-| `test/`    | Casos de prueba o QA manual                            |
+| Tipo       | Uso común                                                                                                                            |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| `feature/` | Cualquier RFC o Tarea que involucre la creación o actualización de funcionalidades                                                   |
+| `bugfix/`  | Corrección de incidencias no críticas                                                                                                |
+| `hotfix/`  | Corrección de incidencias urgente en `production`                                                                                    |
+| `chore/`   | Tareas internas sin impacto funcional (linters, CI, documentación, etc.)                                                             |
+| `refactor/`| Reestructuración de código con impacto amplio: reescritura de clases, modelos o lógica compleja, sin cambiar el resultado funcional  |
+| `test/`    | Casos de prueba o QA manual                                                                                                          |
 
 
 ---
